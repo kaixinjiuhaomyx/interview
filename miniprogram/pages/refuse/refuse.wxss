@@ -1,0 +1,25 @@
+/* pages/refuse/refuse.wxss */
+.textBox{
+  height: 15rem;
+  width: center;
+  border:1px solid;
+  margin: 1.6rem;
+}
+.gray{
+  color: #ccc;
+}
+.hidden{
+  display: none;
+}
+.btn{
+  position: absolute;
+}
+.cancel{
+  position: relative;
+  left:10rem;
+  /* top:2rem; */
+}
+.sure{
+  position: relative;
+  left:11rem;
+}
