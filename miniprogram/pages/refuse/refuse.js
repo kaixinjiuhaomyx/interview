@@ -5,19 +5,20 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    val:"请输入拒绝理由"
   },
   cancel: function () {
     console.log('取消');
-    // wx.navigateTo({
-    //   url: '../refuse/refuse',
-    // })
   },
-  sure: function () {
-    console.log('确定');
-    // wx.navigateTo({
-    //   url: '../refuse/refuse',
-    // })
+  sure: function (e) {
+
+    console.log('确定')
+  },
+  bindButtonTap() {
+    this.setData({
+      focus: true,
+      val: ''
+    })
   },
   /**
    * 生命周期函数--监听页面加载

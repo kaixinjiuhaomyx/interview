@@ -1,9 +1,16 @@
 /* pages/refuse/refuse.wxss */
-.textBox{
-  height: 15rem;
-  width: center;
+.Box{
+  margin:40rpx;
   border:1px solid;
-  margin: 1.6rem;
+  /* background: #eee; */
+}
+.textBox{
+  height: 800rpx;
+  width: 90%;
+  /* border:1px solid; */
+  margin: 30rpx;
+  background: #eee;
+
 }
 .gray{
   color: #ccc;
@@ -12,14 +19,20 @@
   display: none;
 }
 .btn{
-  position: absolute;
+  display: flex;
+  /* position: absolute; */
+  margin: 10rpx;
+
 }
 .cancel{
-  position: relative;
-  left:10rem;
+  /* position: relative; */
+  /* left:10rem; */
   /* top:2rem; */
+  /* flex: 1; */
 }
 .sure{
-  position: relative;
-  left:11rem;
+  /* position: relative; */
+  /* left:11rem; */
+  /* flex: 1; */
+
 }

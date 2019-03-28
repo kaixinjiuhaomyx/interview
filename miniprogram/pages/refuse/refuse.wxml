@@ -1,11 +1,14 @@
 <!--pages/refuse/refuse.wxml-->
-  <textarea class="textBox" >
-    <view class='gray'>
-      请输入拒绝理由
-    </view>
+<view class='Box'>
+
+  <textarea class="textBox" bindtap='bindButtonTap' name="textarea">
+      {{val}}
   </textarea>
+<!-- <textarea placeholder="form 中的 textarea" name="textarea" /> -->
+
   <view class='btn'>
     <button type="default" size='mini' class='cancel' bindtap="cancel">取消</button>
     <button type="primary" size='mini' class='sure' bindtap="sure">确定</button>
   </view>
-  
+
+</view>

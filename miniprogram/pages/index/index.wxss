@@ -1,13 +1,13 @@
 .return{
-  height: 1.5rem;
+  height: 1rem;
 }
 
 .right{
   /* background: #ff0036; */
   position: absolute;
-  right:5px;
-  top:5px;
-  display: block;
+  right:0rem;
+  top:0rem;
+  /* height: 1rpx; */
 }
 .tital{
   width: 100%;
@@ -22,23 +22,35 @@
   border-bottom: 1px solid;
 }
 .textBox{
-  height: 6rem;
-  width: center;
+  height: 300rpx;
+  width: 90%;
+  background: #eee;
+  margin: 30rpx;
   /* border:1px solid; */
   /* margin: 1.6rem; */
   /* position:absolute; */
+  /* overflow: hidden; */
 }
 .buttonRefuse{
   /* position:relative; */
   /* top:-4rem; */
-  left:8rem;
+  /* right:0rpx; */
+  /* left:200rpx; */
+  /* background: #0000ff;  */
+  /* right: 20rpx; */
+  /* flex-grow: 3; */
 }
 .buttonConsent{
   /* position:relative; */
   /* top:-4rem; */
-  left:9rem;
+  /* left:470rpx; */
+  /* flex-grow: 1; */
+}
+.btnBox{
+  display: flex;
+  margin: 10rpx;
 }
 .box{
-  margin:2rem;
+  margin:40rpx;
   border:1px solid;
 }

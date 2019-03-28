@@ -1,16 +1,16 @@
 <!-- home -->
 <view class="return">
-  <view class="group" class="right">
+  <view class="group" class="right" >
+    <block wx:for="{{iconType}}">
+      <icon type="{{item}}" size="20" />
+    </block>
+  </view>
+</view>
+<!-- <view class="group" class="right" class='return'>
   <block wx:for="{{iconType}}">
     <icon type="{{item}}" size="20" />
   </block>
-</view>
-</view>
-<view class="group" class="right">
-  <block wx:for="{{iconType}}">
-    <icon type="{{item}}" size="20" />
-  </block>
-</view>
+</view> -->
 
 <!-- 面试管理 -->
 <view>
@@ -19,30 +19,26 @@
 
 <!-- 信息框 -->
 <view class="box">
+ 详细信息
   <textarea class="textBox">
-    详细信息
+  
   </textarea>
 
   <!-- 按钮 -->
-  <!-- <view> -->
-      <!-- <view> -->
-        <button type="warn" size='mini' class='buttonRefuse' bindtap="refuse">
-          拒绝
-        </button>
-      <!-- </view> -->
-        <!-- <button type="primary" size='mini' class='buttonRefuse' bindtap="refuse">
-          拒绝
-        </button> -->
-      <!-- <view> -->
-        <button type="primary" size='mini' class='buttonConsent' bindtap="agree">
-          同意
-        </button>
-      <!-- </view> -->
-      <!-- <button type="primary" size='mini' class='buttonConsent'  bindtap="refuse">
+  <view class='btnBox'>
+    <!-- <view> -->
+      <button type="warn" size='mini' class='buttonRefuse' bindtap="refuse">
+        拒绝
+      </button>
+    <!-- </view> -->
+   
+    <!-- <view> -->
+      <button type="primary" size='mini' class='buttonConsent' bindtap="agree">
         同意
-      </button> -->
-  <!-- </view> -->
-  
+      </button> 
+    <!-- </view> -->
+   
+  </view>
 </view>
    
   
